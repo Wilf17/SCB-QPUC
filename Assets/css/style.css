@@ -1,0 +1,253 @@
+body{
+    width: 100%;
+    padding:auto;
+    background:url(../images/Rectangle2.jpg) no-repeat;
+}
+.section1{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 23px;
+}
+.align-items-start{
+    display: flex;
+    flex-direction: column column;
+    justify-content: space-evenly;
+}
+.section1 .image{
+    width: 15%;
+    text-align: center
+}
+.section1 .image img{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.section1 .competition{
+    width: 80%;
+    margin: auto;
+    background-color: #003D1C;
+    color:#53FCA1;
+    border: 1px solid #53FCA1;
+    border-radius: 10px;
+    
+}
+.section1 .competition-number{
+    font-weight: bold;
+    margin-top:2%;
+    font-size: 20px;
+}
+.section1 .competition-date{
+    color: #1AA65B;
+    font-weight: bold;
+    margin-top:2%;
+}
+.section1  .questions{
+    width: 35%;
+    text-align: justify;
+}
+.section1  .reponses{
+    text-align: justify;
+}
+.section1 .questions .title{
+    background-color: #003D1C;
+    border-radius: 8px;
+    padding: 1%;
+    height: 20px;
+    display: flex;
+    flex-direction: column column;
+    justify-content: flex-start;
+}
+.section1 .question-title{
+    color:#4BE391;
+    font-weight: bold;
+}
+.section1 .number-of-questions{
+    color:#4BE391;
+    font-weight: bold;
+}
+.section1 .total-of-questions{
+    color:#1AA65B;
+    font-weight: bold;
+}
+.section1 .questions .questions-infos{
+    width: 50%;
+    text-align: start;
+    margin:auto;
+    padding: auto;
+}
+.section1 .questions .questions-buttons{
+    width: 50%;
+    margin:auto;         
+    text-align: end;
+    padding: auto;
+}
+.section1 .questions .questions-buttons img{
+    width: 7%;
+}
+.section1 .ennonce{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;  
+}
+.section1 .questions-image {
+   display: flex;
+   flex-direction: column column;
+   padding: 2%;
+   justify-content: center;
+}
+.section1 .questions-image .element{
+    max-width: 70%;
+   text-align: center;
+}
+.section1 .questions-image img{
+    width: 60%;
+}
+.section1 .reponses .title-reponses{
+    background-color: #003D1C;
+    border-radius: 8px;
+    padding: 1%;
+    height: 20px;
+    display: flex;
+    flex-direction: column column;
+    justify-content: flex-start; 
+}
+.section1 .reponses .title-reponses .reponses-infos{
+    width: 50%;
+    color:#4BE391;
+    font-weight: bold;
+    text-align: start;
+}
+.section1 .reponses .title-reponses .reponses-buttons{
+    width: 50%;
+    text-align: end;
+}
+.section1 .reponses .title-reponses .reponses-buttons img{
+    width: 70%;
+    margin-right: 60%;
+}
+.section1 .reponses .title-reponses .reponses-specify{
+    width:auto;
+    display:flex;
+    flex-direction: column column;
+    justify-content: flex-end;
+}
+.section1 .reponses .title-reponses .reponses-specify .people-responded{
+    color:white;
+    font-weight: bold;
+}
+.section1 .reponses .title-reponses .reponses-specify .people-total{
+    color:#1AA65B;
+    font-weight: bold; 
+}
+.section1 .reponses .reponses-choice{
+    width: 100%;
+    display: flex;
+    margin:2% 0% 2% 0%;
+    flex-direction: column column;
+    justify-content: center;
+    text-align: center;
+}
+.section1 .reponses .reponses-choice .element{
+    width: 25%;
+}
+.section1 .reponses .reponses-choice  .reponse-logo {
+    width: 50%;
+}
+.section1 .reponses .reponses-choice .reponse-intitule{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+}
+.section1 .reponses .reponse-asset{
+   width: 50%;
+   padding-top: 2%;
+}
+.section1 .reponses .reponse-asset img{
+    width: 7%;
+}
+.section1 .reponses .peoples-pictures {
+    width: 50%;
+    padding-top: 2%;
+}
+.section1 .reponses .peoples-pictures img{
+    width: 30%;
+}
+.section2{
+    width: 100%;
+    margin: auto;
+}
+.align-items-start{
+    display: flex;
+    flex-direction: column column;
+    justify-content: space-evenly;
+}
+.section2 .align-items-start .colonne-classement{
+    width: 30%;
+}
+.section2 .align-items-start .colonne-equipe{
+
+}
+.section2 .classement-title{
+    background-color:#003D1C;
+    color:#53FCA1;
+    padding-left: 7%;
+    font-weight: bold;
+}
+.section2 .container0{
+    width: 100%;
+    margin:2%;
+   display:flex;
+   flex-direction:column column;
+   justify-content:space-between;
+}
+.section2 .container0 .classement-number{
+    background: linear-gradient(180deg, #008C42, #4F4F4F);
+    color:#53FCA1;
+    padding: 1%;
+    text-align: center;
+    width:10%;
+}
+.section2 .container0 .name{
+    color:#4F4F4F;
+    font-weight: bold;
+}
+.section2 .container0 .points{
+    color: #008C42;
+    font-weight: bold;
+}
+.section2 .equipe-name{
+    background: linear-gradient(180deg, #1AA65B, #4F4F4F);
+    color:  #53FCA1;
+    font-weight: bold;
+    padding:2%;
+    width: 100%;
+    margin:auto;
+}
+.section2 .container1{
+    width: 100%;
+    display:flex;
+    flex-direction:column column;
+    flex-wrap: wrap;
+    
+}
+.section2 .container1 .container-images{
+    width: 25%;
+}
+.section2 .container1 .container-images img{
+    width: 20%;
+}
+ .peoples-picture, .people-name,.people-point{
+    width: 25%;
+    text-align: center;
+ }
+ .people-name{
+    font-size: 10px;
+    font-weight: bold;
+ }
+ .people-point{
+    font-size: 14px;
+    font-weight: bold;
+ }
